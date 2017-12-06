@@ -61,3 +61,10 @@ if (gameFive === 'Y' || gameFive === 'y') {
 }
 
 var fav = ['chess', 'kittens', 'puppies', 'vanguard', 'coding'];
+
+var answer = prompt('what is one of my fav things?');
+var flag;
+
+for (var i = 0; i < fav.length; i++) {
+  console.log('each item at each iteration:', fav[i])
+}
