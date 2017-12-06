@@ -59,3 +59,5 @@ if (gameFive === 'Y' || gameFive === 'y') {
 } else {
   alert('K then.');
 }
+
+var fav = ['chess', 'kittens', 'puppies', 'vanguard', 'coding'];
