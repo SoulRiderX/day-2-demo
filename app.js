@@ -35,7 +35,7 @@ gameThree.toUpperCase();
 if (gameThree === 'Y' || gameThree === 'y') {
   alert('Great!');
 } else {
-  alert('ok.')
+  alert('ok.');
 }
 
 var gameFour = prompt('do you play magic? Y or N only.');
