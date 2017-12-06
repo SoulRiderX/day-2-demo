@@ -1,18 +1,27 @@
 'use strict';
 
+var user = prompt('what is your name?');
+console.log('users answer:', user);
+
+alert('Nice to meet ya!');
+
 var gameOne = prompt('do you play cardfight vanguard? Y or N only.');
 console.log('gameOne:', gameOne);
 
-if (gameOne === 'Y') {
+gameOne.toUpperCase();
+
+if (gameOne === 'Y' || gameOne === 'y') {
   alert('Sweet!');
 } else {
   alert('Not a problem.');
-} 
+}
 
 var gameTwo = prompt('do you play yugioh? Y or N only.');
 console.log('gameTwo:', gameTwo);
 
-if (gameTwo === 'Y') {
+gameTwo.toUpperCase();
+
+if (gameTwo === 'Y' || gameTwo === 'y') {
   alert('Nice!');
 } else {
   alert('Oh well.');
@@ -21,7 +30,9 @@ if (gameTwo === 'Y') {
 var gameThree = prompt('do you play pokemon? Y or N only.');
 console.log('gameThree:', gameThree);
 
-if (gameThree === 'Y') {
+gameThree.toUpperCase();
+
+if (gameThree === 'Y' || gameThree === 'y') {
   alert('Great!');
 } else {
   alert('ok.')
@@ -30,7 +41,9 @@ if (gameThree === 'Y') {
 var gameFour = prompt('do you play magic? Y or N only.');
 console.log('gameFour:', gameFour);
 
-if (gameFour === 'Y') {
+gameFour.toUpperCase();
+
+if (gameFour === 'Y' || gameFour === 'y') {
   alert('Awesome!');
 } else {
   alert('Meh. Whatever.');
@@ -39,7 +52,9 @@ if (gameFour === 'Y') {
 var gameFive = prompt('do you play buddyfight? Y or N only.');
 console.log('gameFive:', gameFive);
 
-if (gameFive === 'Y') {
+gameFive.toUpperCase();
+
+if (gameFive === 'Y' || gameFive === 'y') {
   alert('good!');
 } else {
   alert('K then.');
